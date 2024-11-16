@@ -147,6 +147,9 @@ When joining two __observables__, and one changes; the listener of that _observa
 
 With **GetX**, if you join two variables, `GetX()` (similar to `Observer()` ) will only rebuild if it implies a real change of State.
 
+### What are reactive variables?
+Reactive variables are similar to observable variables but are often used to describe variables that automatically react to changes without requiring listeners or observers.
+
 ### Declaring a reactive variable
 
 You have 3 ways to turn a variable into an "observable".
